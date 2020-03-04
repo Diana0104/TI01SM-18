@@ -1,7 +1,8 @@
 import React,{Component} from 'react';
 import { StyleSheet, ActivityIndicator,Modal,View} from 'react-native';
 import { Container, Header, Content, Card, CardItem, Text, Body,Button,Item,Input,Icon } from 'native-base';
-
+//Es la pantalla de inicio de secion en la cual se puden los datos y con los botone se puede navegar entre pantallas
+//Autor:Martínez Garcia Diana America
 class Login extends Component {
   constructor(props){
     super(props);

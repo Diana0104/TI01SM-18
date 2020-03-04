@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { StyleSheet} from 'react-native';
 import { Container, Header, Content, Card, CardItem, Text, Body,Button,Item, Icon,Input } from 'native-base';
-
+//En esta pantalla se da la opcion de registrarte si no tienes cuenta ya se con un correo o con cuenta de facebook o gmail
+//Autor:Martínez Garcia Diana America
 class Registro extends Component{
 render(){
   const navegar = this.props.navegation;

@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { StyleSheet} from 'react-native';
 import { Container, Header, Content, Card, CardItem, Text, Body,Button,Item, Icon,Input } from 'native-base';
-
+//En esta pantalla se muestran los datos que el usuario puso al iniciar sesión que son nombre y contraseña
+//Autor:Martínez Garcia Diana America
 class Iniciar extends Component{
 render(){
   const navegar = this.props.navegation;

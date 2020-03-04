@@ -1,3 +1,4 @@
+//Autor:Martínez Garcia Diana America
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
@@ -6,7 +7,6 @@ import Registro from './screen/Registro';
 import Iniciar from './screen/Iniciar';
 import Principal from './screen/Principal';
 import Ejercicio from './screen/Ejercicio';
-
 
 const Stack = createStackNavigator();
 
