@@ -21,7 +21,7 @@ class Login extends Component {
     {
       this.setState({isLoading: true})
       setTimeout(() => {
-        navegar.navigate('Iniciar',{nombres:this.state.nombre,pass:this.state.password});
+        navegar.navigate('Ejercicio',{nombres:this.state.nombre,pass:this.state.password});
         this.setState({isLoading: false})
       },3000);
     }
